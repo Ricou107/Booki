@@ -58,3 +58,14 @@ nav li a:hover {
 #Rechercher {
     display: none;
 }
+
+#filtres div {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#filtres h1 {
+    margin-right: 650px;
+}
+
