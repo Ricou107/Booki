@@ -57,11 +57,6 @@ nav li a:hover {
 /* Section1 */
 
 h1 {
-    font-size: 20px;
-    margin-right: 10px;
-}
-
-h2 {
     font-size: 18px;
     margin-right: 10px;
 }
@@ -140,10 +135,14 @@ input {
     right: 2px;
 }
 
+#filtres h1 {
+    font-size: 14px;
+}
+
 #filtres div {
     align-items: center;
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     border: #F2F2F2 solid 3px;
     border-radius: 22px 22px 22px 22px;  
@@ -158,6 +157,7 @@ input {
 
 #infos {
     margin-top: 15px;
+    font-size: 14px;
 }
 #infos i{
     color : #0065FC;
@@ -186,8 +186,5 @@ input {
     margin-top: 20px;
 }
 
-p.title {
-    font-weight: bold;
-}
 
 
