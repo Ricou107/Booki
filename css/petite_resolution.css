@@ -70,3 +70,27 @@ nav li a:hover {
 }
 
 
+/* Section 2 */
+
+#section2 {
+    flex-direction: column-reverse;
+}
+
+#hebergementblock {
+    width: 100%;
+    background-color: white;
+}
+
+#popularblock {
+    width :100%;
+    border-radius: 0;
+    height: 600px;
+}
+
+.card {
+    width: 100%;
+}
+
+.hebergementblockinfos .stars {
+    margin-bottom: 8px;
+}
