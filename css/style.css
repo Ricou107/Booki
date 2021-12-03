@@ -183,8 +183,134 @@ input {
 /* Section 2 */
 
 #section2 {
-    margin-top: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
 }
 
+#section2 h1 {
+    margin-bottom: 20px;
+}
 
+#hebergementblock {
+    width: 65%;
+    background-color: #F2F2F2 ;
+    padding: 30px;
+    border-radius: 25px;
+}
 
+#popularblock {
+    background-color: #F2F2F2 ;
+    padding: 30px;
+    border-radius: 25px;
+    width: 32%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    height: 250px;
+    padding: 0.8%;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.card img {
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    width : 100%;
+}
+
+.card p:last-child {
+    font-weight: normal;
+}
+
+.cardshebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.cardimg {
+    display: flex;
+    width: 100%;
+    height: 140px;
+}
+
+#popularblock {
+    display: flex;
+    flex-direction: column;
+}
+
+#headerpopularblock {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.popularcard {
+    display: flex;
+    background-color: white;
+    height: 170px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1.5%;
+}
+
+.popularcard p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.popularcard p:nth-child(2){
+    font-weight: normal;
+}
+
+#popularcardimg {
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+
+#popularcardimg img {
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#popularcardinfos {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars {
+    margin-left: 10px;
+    color: #0065FC;
+    margin-bottom: 9px;
+}
+
+#popularcards {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1
+}
