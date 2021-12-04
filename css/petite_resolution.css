@@ -55,7 +55,7 @@ nav li a:hover {
 }
 
 #loupe {
-    display: ruby;
+    display: inline;
     color: white;
     background-color: #0065FC;
     padding: 10px 12px 10px 12px;

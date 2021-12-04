@@ -186,6 +186,18 @@ input {
     }
 }
 
+#filtres div:hover   {
+    color: white;
+    background-color: #0065FC;
+    border: white solid 3px;
+}
+
+#filtres div:hover i {
+    color : white;
+    background-color: #0065FC;;
+}
+
+
 
 /* Section 2 */
 
