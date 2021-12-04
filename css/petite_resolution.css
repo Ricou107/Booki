@@ -2,6 +2,14 @@ body {
     margin: 0;
 }
 
+section {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
 /* Header */
 
 nav {
@@ -125,5 +133,11 @@ nav li a:hover {
     height: 220px;
 }
 
+
+/* Footer */
+
+footer {
+    flex-direction: column;
+}
 
 
