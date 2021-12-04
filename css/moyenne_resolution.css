@@ -43,3 +43,19 @@
 .popularcard {
     margin-bottom: 20px;
 }
+
+/* Section 3 */
+
+#activites {
+    flex-wrap: wrap;
+}
+
+.large {
+    width: 46%;
+    margin-bottom: 30px;
+}
+
+.combo {
+    width: 46%;
+    margin-bottom: 30px;
+}

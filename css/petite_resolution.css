@@ -94,3 +94,36 @@ nav li a:hover {
 .hebergementblockinfos .stars {
     margin-bottom: 8px;
 }
+
+/* Section 3 */
+
+#section3 {
+   padding: 0 30px 0 30px;
+}
+
+#activites {
+    flex-wrap: wrap;
+}
+
+.large {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 220px;
+}
+
+.combo {
+    width: 100%;
+}
+
+.small {
+    margin-bottom: 30px;
+    height: 220px;
+}
+
+.medium {
+    margin-bottom: 30px;
+    height: 220px;
+}
+
+
+

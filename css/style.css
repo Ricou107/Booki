@@ -332,4 +332,93 @@ input {
 
 #section3{
     margin-top: 55px;
+    margin-bottom: 30px;
 }
+
+#section3 h1 {
+    margin-bottom: 20px;
+}
+
+#activites {
+    display: flex;
+    justify-content: space-between;
+}
+
+.large {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+    width: 23%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius : 20px;
+}
+
+.large img {
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.large h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.medium {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 250px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius : 20px;
+}
+
+.medium img {
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.medium h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.small {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 212px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius : 20px;
+}
+
+.small img {
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.small h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#activites {
+    display: flex;
+    flex-direction: row;
+}
+
+.combo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 23%;
+}
+
