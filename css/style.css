@@ -11,6 +11,11 @@ section {
     margin: 0px 30px 0 30px;
 }
 
+section img {
+    height :100%;
+    width: 100%;
+}
+
 /* Header */
 
 header {
