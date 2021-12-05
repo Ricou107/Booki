@@ -54,7 +54,7 @@ nav li a {
     border-top:  2px solid transparent;
 }
 
-nav li a:hover {
+nav li a:hover, nav li a:active {
     color: #0065FC;
     border-top: #0065FC 2px solid;
 }
@@ -125,6 +125,23 @@ input {
     right: 10px;
 }
 
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.popularcard .fill-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .fill-div {
+    display: flex;
+    flex-direction: column;
+}
 
 #filtres {
     display: flex;
@@ -238,13 +255,18 @@ input {
     display: flex;
     flex-direction: column;
     width: 31%;
-    height: 220px;
+    height: 240px;
     padding: 0.8%;
     border-radius: 20px;
     background-color: white;
     margin-bottom: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+.card:hover, .large:hover, .medium:hover, .small:hover, .popularcard:hover { 
+    transform: scale(1.05); 
+    transition: all .2s ease-in-out
+    }
 
 .card p {
     font-weight: bold;
@@ -351,7 +373,7 @@ input {
 }
 
 .hebergementblockinfos .stars {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 /* Section 3 */
@@ -377,6 +399,11 @@ input {
     width: 23%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius : 20px;
+}
+
+.large .fill-div, .medium .fill-div, .small .fill-div {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .large img {

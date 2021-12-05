@@ -44,7 +44,7 @@ nav li a {
     border-top: 0;
 }
 
-nav li a:hover {
+nav li a:hover, nav li a:active  {
     color: #0065FC;
     border-bottom: #0065FC 2px solid;
     border-top: 0;
